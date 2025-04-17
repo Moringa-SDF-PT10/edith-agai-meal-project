@@ -1,1 +1,1 @@
-# edirh-agai-meal-project
+# edith-agai-meal-project
