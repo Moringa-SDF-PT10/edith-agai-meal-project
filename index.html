@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Meal Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     
+     <main class="startscreen">
+      <div id="start-sc">
+        <h1><b><u>!! Mystery Meal Game !!</u></b></h1>
+        <p>Objective: Guess the Meal based on the ingredients.</p>
+        <button id="startbutton">Start Game</button>
+      </div>
+     </main>
+
+     <div class="game-container" id="game-container" style="display:none;">
+        <div id="meal-image"></div>
+        <div id="meal-ingredients"></div>
+        <label for="guess">Guess the Cuisine:</label>
+        <input type="text" id="guess" placeholder="Type your guess here...">
+        <button id="submit-guess">Submit Guess</button>
+        <div id="feedback"></div>
+        <div id="score"></div>
+        <button id="next-meal" style="display:none;">Next Meal</button>
+        <button id="restart-button" style="display:none;">Restart Game</button>
+     </div>
+
+ <script src="index.js"></script>
+</body>
+</html>
