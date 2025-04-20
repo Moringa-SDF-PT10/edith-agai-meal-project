@@ -1,3 +1,4 @@
+/*basic CSS pink themed*/
 body {
     background-color: rgb(255, 190, 223);
     margin: 0;
@@ -66,7 +67,7 @@ body {
     background-color: #eb7aa0;
     margin: 10px;
     padding: 10px;
-    font-size: 1em;
+    font-size: 20px;
     border-radius: 8px;
     border: 5px solid #d64569;
   }
@@ -87,14 +88,14 @@ body {
   }
   
   #feedback {
-    font-size: 1.2em;
+    font-size: 25px;
     margin: 20px;
     font-weight: bold;
   }
   
   #score {
     margin: 10px;
-    font-size: 1.1em;
+    font-size: 20px;
     font-style: italic;
     color: #555;
   }
@@ -116,3 +117,4 @@ body {
     background-color: #d4086e;
   }
   
+  /* i didnt see the need for CSS comments ngl so yeah... most of it is self explanatory*/
