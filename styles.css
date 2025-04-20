@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(255, 190, 223);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #e279b5;
+  }
+  
+  u {
+    text-decoration-color: #884466;
+  }
+  
+
+  .startscreen {
+    padding: 40px 20px;
+  }
+  
+  #startbutton {
+    margin: 10px;
+    padding: 10px 25px;
+    font-size: medium;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #startbutton:hover {
+    background-color: #ff0b8d;
+  }
+  
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .meal-pic {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 5px;
+  }
+  
+  #meal-ingredients {
+    margin: 0px auto;
+    max-width: 400px;
+    text-align: left;
+    background-color: #e095ae;
+    border-radius: 16px;
+    padding: 15px;
+  }
+  
+  #meal-ingredients li {
+    margin-bottom: 3px;
+  }
+  
+  select {
+    background-color: #eb7aa0;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 5px solid #d64569;
+  }
+   
+  
+  #submit-guess {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #8a004f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #submit-guess:hover {
+    background-color: #6b0041;
+  }
+  
+  #feedback {
+    font-size: 1.2em;
+    margin: 20px;
+    font-weight: bold;
+  }
+  
+  #score {
+    margin: 10px;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .restart-button,
+  #next-meal {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #e7518d;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #restart-button:hover,
+  #next-meal:hover {
+    background-color: #d4086e;
+  }
+  
