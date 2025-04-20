@@ -8,20 +8,80 @@
 </head>
 <body>
      <!--basic start screen-->
-     <main class="startscreen">
+     <main class="startscreen" id="start-creen">
       <div id="start-sc">
         <h1><b><u>!! Mystery Meal Game !!</u></b></h1>
         <p>Objective: Guess the Meal based on the ingredients.</p>
+        <h2><u>Rules</u></h2>
+          <li>You have to pick a Category or Area.</li>
+          <li>Either of them merit a point.</li>
+          <li>After the third round you get your final score and a little message.</li>
+        
+          
         <button id="startbutton">Start Game</button>
       </div>
+      <p><u><b>By: Edith Agai :3</b></u></p>
+      <p>Have fun!!</p>
      </main>
 
      <!--actual container for the game-->
      <div class="game-container" id="game-container" style="display:none;">
-        <div id="meal-image"></div>
+      <img id="meal-image" class="meal-pic" src="" alt="Meal Image" />
         <div id="meal-ingredients"></div>
-        <label for="guess">Guess the Cuisine:</label>
-        <input type="text" id="guess" placeholder="Type your guess here...">
+        <label for="guess">Guess the Category</label>
+
+        <select id="guess-area">
+          <option value="">-- Select the cuisine --</option>
+          <option value="italian">Italian</option>
+          <option value="chinese">Chinese</option>
+          <option value="mexican">Mexican</option>
+          <option value="indian">Indian</option>
+          <option value="british">British</option>
+          <option value="portuguese">Portuguese</option>
+          <option value="greek">Greek</option>
+          <option value="tunisian">Tunisian</option>
+          <option value="irish">Irish</option>
+          <option value="canadian">Canadian</option>
+          <option value="moroccan">Moroccan</option>
+          <option value="japanese">Japanese</option>
+          <option value="jamaican">Jamaican</option>
+          <option value="american">American</option>
+          <option value="croatian">Croatian</option>
+          <option value="dutch">Dutch</option>
+          <option value="egyptian">Egyptian</option>
+          <option value="filipino">Filipino</option>
+          <option value="french">French</option>
+          <option value="kenyan">Kenyan</option>
+          <option value="malaysian">Malaysian</option>
+          <option value="polish">Polish</option>
+          <option value="russian">Russian</option>
+          <option value="spanish">Spanish</option>
+          <option value="thai">Thai</option>
+          <option value="turkish">Turkish</option>
+          <option value="ukrainian">Ukrainian</option>
+          <option value="uruguayan">Uruguayan</option>
+          <option value="vietnamese">Vietnamese</option>
+        </select>
+
+        <select id="guess-category">
+          <option value="">-- Select the Area --</option>
+          <option value="dessert">Dessert</option>
+          <option value="seafood">Seafood</option>
+          <option value="vegetarian">Vegetarian</option>
+          <option value="beef">Beef</option>
+          <option value="chicken">Chicken</option>
+          <option value="lamb">Lamb</option>
+          <option value="pasta">Pasta</option>
+          <option value="side">Side</option>
+          <option value="starter">Starter</option>
+          <option value="goat">Goat</option>
+          <option value="breakfast">Breakfast</option>
+          <option value="vegan">Vegan</option>
+          <option value="miscellaneous">Miscellaneous</option>
+        </select>
+        
+</select>
+
         <button id="submit-guess">Submit Guess</button>
         <div id="feedback"></div>
         <div id="score"></div>
