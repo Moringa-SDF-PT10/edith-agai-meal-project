@@ -55,7 +55,7 @@ function startRound() {
     categorySelect.dataset.correctCategory = meal.strCategory.toLowerCase();
   });
 }
-
+//submittion functionality
 submitGuessButton.addEventListener('click', () => {
   const areaSelect = document.getElementById('guess-area');
   const categorySelect = document.getElementById('guess-category');
@@ -66,7 +66,7 @@ submitGuessButton.addEventListener('click', () => {
   const correctArea = areaSelect.dataset.correctArea;
   const correctCategory = categorySelect.dataset.correctCategory;
 
-
+//generates correct or wrong answer for each round
   if (areaGuess === correctArea || categoryGuess === correctCategory) {
     correctGuesses++;
     feedback.textContent = `CORRECT!! Yippie! You got it correct.🔥 It was ${correctArea} (${correctCategory})`;
@@ -92,6 +92,7 @@ submitGuessButton.addEventListener('click', () => {
   }
 });
 
+//runs when game ends
 function endGame() {
   gameContainer.innerHTML = `
     <h2>Game Over!</h2>
@@ -101,6 +102,7 @@ function endGame() {
   `;
 }
 
+//assigns remarks based off of points
 function getRemark() {
   if (correctGuesses === 3) return "You're a certified foodie! 👑";
   if (correctGuesses === 2) return "Almost there  💅🏾";
