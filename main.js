@@ -102,8 +102,10 @@ function endGame() {
     <h2>Game Over!</h2>
     <p>You scored ${correctGuesses} out of 3</p>
     <p>${getRemark()}</p>
+    <p><img src="Assets/download (2).jpeg"></p>
     <button class="restart-button" onclick="window.location.reload()">Play Again</button>
-  `;
+    
+    `;
 }
 
 //assigns remarks based off of points
