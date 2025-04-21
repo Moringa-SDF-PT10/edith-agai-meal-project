@@ -57,6 +57,11 @@ https://moringa-sdf-pt10.github.io/edith-agai-meal-project/
 5. The final score will be displayed
 
 ---
+## Screenshots
+<img src= Assets/start.png>
+<img src= Assets/gameplay.png>
+<img src= Assets/end.png>
+---
 
 ## Contributing
 This was made as part of a school assignment so no outside contributions will be accepted 🥲
