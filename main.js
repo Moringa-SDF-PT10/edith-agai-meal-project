@@ -111,6 +111,6 @@ function getRemark() {
   if (correctGuesses === 3) return "You're a certified foodie! 👑";
   if (correctGuesses === 2) return "Almost there  💅🏾";
   if (correctGuesses === 1) return "Good trial, baby chef 🧁";
-  return "Not everyone can get it all the time, so we try again next time 😅";
+  return "Not everyone can get it all the time, so we try again next time pooks 😅";
 }
 
