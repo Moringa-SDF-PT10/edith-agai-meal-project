@@ -94,6 +94,10 @@ submitGuessButton.addEventListener('click', () => {
 
 //runs when game ends
 function endGame() {
+  const startScreen = document.getElementById('start-sc');
+  if (startScreen) {
+    startScreen.style.display = 'none';
+  }
   gameContainer.innerHTML = `
     <h2>Game Over!</h2>
     <p>You scored ${correctGuesses} out of 3</p>
